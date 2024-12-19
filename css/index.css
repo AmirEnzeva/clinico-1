@@ -140,13 +140,12 @@ a:hover{
 }
 .login-btn{
     font-size: 1.3rem;
-    padding: .5rem 1rem;
+    padding: 1rem 1.5rem;
     border: .1rem solid var(--secondary-color);
     border-radius: .5rem;
     transition: all 250ms ease;
 }
 .login-btn:hover{
-    border-color: var(--primary-color);
     background-color: var(--secondary-color);
     color: var(--white-color);
 }
@@ -159,3 +158,46 @@ a:hover{
 }
 
 /* /navbar */
+
+
+/* main */
+
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('../images/img/background-1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--white-color);
+}
+.main-header{
+    text-align: center;
+    padding: 2rem 0;
+}
+.main-header__title{
+    font-size: 2rem;
+    color: var(--secondary-color);
+    text-shadow: 0 0 .5rem var(--secondary-color);
+    margin-bottom: .5rem;
+}
+.main-header__subtitle{
+
+}
+.main-search{
+
+}
+.main-search__input{
+
+}
+.main-search__icon{
+
+}
+.main-last-search{
+
+}
+.main-last-search__titel{
+
+}
+.main-last-search__text{
+
+}
+
+/* /main */

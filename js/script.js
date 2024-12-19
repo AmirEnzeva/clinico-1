@@ -34,6 +34,7 @@ miniMenuBtn.forEach(menuItem => {
         if (miniMenu.classList.contains('mini-menu--active')) {
             miniMenu.classList.remove('mini-menu--active')
         } else {
+            closeAllMiniMenu()
             miniMenu.classList.add('mini-menu--active')
         }
    })
