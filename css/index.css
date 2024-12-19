@@ -25,6 +25,7 @@ body{
     direction: rtl;
     color: var(--dark-color);
     overflow: hidden;
+    background-color: black;
 }
 
 
