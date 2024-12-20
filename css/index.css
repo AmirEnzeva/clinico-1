@@ -24,7 +24,6 @@ body{
     font-family: var(--primary-font) ;
     direction: rtl;
     color: var(--dark-color);
-    overflow: hidden;
 }
 
 
@@ -49,8 +48,28 @@ a:hover{
     color: var(--primary-color);
 }
 
+.menu{
+    position: fixed;
+    background-color: var(--white-color);
+    top: 0;
+    right: -80%;
+    bottom: 0;
+    padding: 5rem 2rem;
+    width: 80%;
+    font-size: 1.5rem;
+    transition: all 400ms ease;
+    z-index: 101;
+}
+.menu--active{
+    right: 0;
+}
+.menu-item{
+    border-bottom: .1rem solid var(--dark-color);
+    padding: 1rem 0;
+}
+
 .cover{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -63,7 +82,7 @@ a:hover{
 }
 .cover-t{
     opacity: 1;
-    z-index: 1;
+    z-index: 100;
     visibility: visible;
 }
 
@@ -97,6 +116,11 @@ a:hover{
 /* /componntes */
 
 /* navbar */
+.header{
+    position:sticky;
+    top: 0;
+    background-color: var(--white-color);
+}
 
 .nav{
 
@@ -113,25 +137,6 @@ a:hover{
     height: .2rem;
     background-color: var(--primary-color);
     margin: .2rem 0;
-}
-.menu{
-    position: absolute;
-    background-color: var(--white-color);
-    top: 0;
-    right: -25rem;
-    bottom: 0;
-    padding: 5rem 2rem;
-    width: 25rem;
-    font-size: 1.5rem;
-    transition: all 400ms ease;
-    z-index: 2;
-}
-.menu--active{
-    right: 0;
-}
-.menu-item{
-    border-bottom: .1rem solid var(--dark-color);
-    padding: 1rem 0;
 }
 
 
@@ -179,19 +184,24 @@ a:hover{
     margin-bottom: 1rem;
 }
 .main-header__subtitle{
-    font-size: 1.2rem;
+
 }
 .main-search{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    
 }
 .main-search__input{
-
+    border: none;
 }
-.main-search__icon{
-
+.main-map-marker__icon{
+    color: var(--white-color);
+    background-color: var(--primary-color);
 }
 .main-last-search{
-
+ 
 }
 .main-last-search__titel{
 
