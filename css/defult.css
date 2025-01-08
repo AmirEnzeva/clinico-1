@@ -1,0 +1,65 @@
+/* componnet */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: none;
+}
+
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-family: var(--primary-font);
+    direction: rtl;
+    color: var(--dark-color);
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 250ms ease;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+
+
+.logo-text {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.cover {
+    background-color: rgba(86, 87, 90, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    transition: all 250ms ease;
+}
+
+.cover--active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+/* /componnet */

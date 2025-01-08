@@ -1,0 +1,77 @@
+/* navbar */
+.header {
+    box-shadow: 0 0 1rem var(--dark-color);
+}
+
+.nav {
+    padding: 2rem 0;
+}
+
+.nav-right {}
+
+.d-logo {
+    display: none;
+    margin-left: 1rem;
+}
+
+.menu {}
+
+.menu__item {
+    padding-left: 1.5rem;
+    margin-left: .5rem;
+    position: relative;
+}
+
+.menu__item-link::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -1rem;
+    right: 0;
+    width: 0;
+    background-color: var(--third-color);
+    height: 0.2rem;
+    transition: all 250ms ease;
+}
+
+.menu__item-link:hover {
+    color: var(--third-color);
+}
+
+.menu__item-link:hover.menu__item-link::after {
+    width: 5rem;
+
+}
+
+.m-login-regester {}
+
+.nav-left {}
+
+.d-login-regester {
+    display: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: .1rem solid var(--primary-color);
+}
+
+.d-login-regester:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.nav-left__link {
+    margin-right: 1.5rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+}
+
+.nav-left__link:hover {
+    color: var(--white-color);
+    background-color: var(--third-color);
+}
+
+.m-logo {}
+
+/* /navbar */

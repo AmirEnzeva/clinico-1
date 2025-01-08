@@ -3,48 +3,23 @@ let $ = document;
 
 // menu
 let menuBtn = $.querySelector('.menu-btn')
-let menuCloseBtn = $.querySelector('.menu-close-btn')
+let menuBtnClose = $.querySelector('.exit-btn')
 let menu = $.querySelector('.menu')
 let cover = $.querySelector('.cover')
-let isMeunOpen = false
+console.log(cover);
+menuBtn.addEventListener('click',slidShow)
+menuBtnClose.addEventListener('click',slidShow)
+cover.addEventListener('click',slidShow)
 
-menuBtn.addEventListener('click', slideMenu)
-menuCloseBtn.addEventListener('click', slideMenu)
-cover.addEventListener('click',()=>{
-    if (isMeunOpen) {
-        slideMenu()
-    }
-})
-function slideMenu(){
+function slidShow() {
+    cover.classList.toggle('cover--active')
     menu.classList.toggle('menu--active')
-    cover.classList.toggle('cover-t')
-    isMeunOpen = !isMeunOpen
 }
 // /menu
 
-// mini-menu
 
-let miniMenuBtn = $.querySelectorAll('.menu-item__mini-menu-btn')
-let miniMenu = null;
-let miniMenuIcon = $.querySelector('.mini-menu__item-icon')
 
-miniMenuBtn.forEach(menuItem => {
-   menuItem.addEventListener('click',() =>{
-        miniMenu = $.querySelector(`#${menuItem.getAttribute('data-menuId')}`)
-        if (miniMenu.classList.contains('mini-menu--active')) {
-            miniMenu.classList.remove('mini-menu--active')
-        } else {
-            closeAllMiniMenu()
-            miniMenu.classList.add('mini-menu--active')
-        }
-   })
-})
 
-function closeAllMiniMenu(){
-    if ($.querySelector('.mini-menu--active')) {
+// login
 
-        $.querySelector('.mini-menu--active').classList.remove('mini-menu--active')
-    }
-}
-
-// /mini-menu
+// /login
