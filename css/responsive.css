@@ -26,7 +26,28 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    
+    .header-main__expertise{
+        width: 100%;
+    }
+    .header-main__expertise-location{
+        font-size: 1.3rem;
+    }
+    .header-main__description{
+        width: 100%;
+    }
+    .header-main__title{
+        font-size: 1.8rem;
+    }
+    .header-main__subtitle{
+        font-size: 1.5rem;
+    }
+    .header-main__description-number{
+        font-size: 1.5rem;
+    }
+    .header-main__description-title{
+        font-size: 1.3rem;
+    }
+
 }
 @media only screen and (max-width: 992px) {
     .menu-btn{
