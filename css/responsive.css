@@ -24,6 +24,9 @@
     .login-form__password-text, .login-form__password-forget-link {
         font-size: 1.2rem;
     }
+    .main{
+        margin-top: 1rem;
+    }
 }
 @media only screen and (max-width: 768px) {
     .header-main__expertise{

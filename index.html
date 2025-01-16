@@ -6,6 +6,7 @@
     <title>Clinico</title>
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/fontAwesome5/all.min.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -67,6 +68,8 @@
             </div>
         </div>
     </header>
+
+
     <div class="header-main">
         <div class="container">
             <div class="header-main__content">
@@ -98,12 +101,67 @@
             </div>
         </div>
     </div>
+
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="main-recordturn__btn">
+                        <a href="#" class="main-recordturn__btn-link button-1">تخصص ها</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="main-expertise__btn">
+                        <a href="#" class="main-expertise__btn-link button-2">ثبت نوبت</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="expertises">
+        <div class="container">
+            <div class="section-top d-flex align-items-center justify-content-between">
+                <div class="section-top__right d-flex align-items-center">
+                    <i class="fas fa-universal-access section-top__right-icon"></i>
+                    <h2 class="section-top__title mx-3">تخصص ها</h2>
+                </div>
+                <div class="section-top__left">
+                    <a href="#" class="section-top__show-all d-flex align-items-center">
+                        مشاهده همه
+                        <i class="fas fa-angle-left section-top__show-all-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="expertises-items">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="expertises-item">
+                            
+                        </div>
+                      </div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                      ...
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+
     
 
 
 
     
     <script src="js/script.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
     <script src="vendor/fontAwesome5/js.js"></script>
     <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
