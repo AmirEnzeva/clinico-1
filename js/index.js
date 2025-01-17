@@ -4,18 +4,24 @@ const swiperSlider = new Swiper('.swiper', {
     breakpoints: {
         576: {
           slidesPerView: 1,
+          spaceBetween: 0,
         },
         768: {
-          slidesPerView: 2,
-        },
-
-        992: {
-            slidesPerView: 3,
+          slidesPerView: 3,
         },
         1200: {
           slidesPerView: 4,
         },
 
+      },
+
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
       },
 
 });

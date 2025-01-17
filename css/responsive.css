@@ -1,6 +1,9 @@
 @media only screen and (max-width: 600px) {
     
 }
+
+
+/* 600 */
 @media only screen and (max-width: 600px) {
     .login-register{
         width: 100%;
@@ -27,7 +30,20 @@
     .main{
         margin-top: 1rem;
     }
+
+
+
+    .section-top__right {
+        font-size: 1.5rem;
+    }
+    .section-top__left{
+        font-size: 1.3rem;
+    }
+
 }
+
+
+/* 768 */
 @media only screen and (max-width: 768px) {
     .header-main__expertise{
         width: 100%;
@@ -51,7 +67,14 @@
         font-size: 1.3rem;
     }
 
+    .section-top__right {
+        font-size: 1.6rem;
+    }
+
 }
+
+
+/* 992 */
 @media only screen and (max-width: 992px) {
     .menu-btn{
         font-size: 2.5rem;
@@ -128,7 +151,9 @@
         right: 0;
     }
     
-
+    .swiper-slide{
+        width: 100% !important;
+    }
     .expertises-box{
         box-shadow: 0 0 0.5rem rgba(82, 98, 114, 0.5);
         margin: 1rem auto;
@@ -151,6 +176,9 @@
 
 
 }
+
+
+/* 1200 */
 @media only screen and (max-width: 1200px) {
     
 }
