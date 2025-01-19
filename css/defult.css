@@ -105,6 +105,10 @@ a:hover {
 }
 
 
+section{
+    margin: 5rem 0;
+}
+
 .section-top {}
 
 .section-top__right {
@@ -112,6 +116,9 @@ a:hover {
 }
 .section-top__right-icon {
     color: var(--primary-color);
+    fill: var(--primary-color);
+    width: 2rem;
+    height: 2rem;
 }
 .section-top__show-all-icon {}
 
@@ -172,6 +179,9 @@ a:hover {
 }
 .swiper-pagination{
     bottom: 0rem !important;
+}
+.swiper-wrapper{
+    padding: 1rem;
 }
 
 /* /componnet */

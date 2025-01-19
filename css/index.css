@@ -114,7 +114,7 @@
 
 
 .expertises {
-    margin-top: 3rem;
+    
 }
 .expertises-items{
     margin-top: 3rem;
@@ -125,3 +125,21 @@
 
 
 /* /expertises */
+
+
+/* sickness */
+
+.sickness-items__box{
+    background-color: var(--white-color);
+    box-shadow: 0 0 .5rem rgba(82, 98, 114, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.sickness-items__box-link{
+
+}
+.sickness-items__box-img{
+
+}
+
+/* /sickness */
