@@ -45,32 +45,7 @@
 
 /* 768 */
 @media only screen and (max-width: 768px) {
-    .header-main__expertise{
-        width: 100%;
-    }
-    .header-main__expertise-location{
-        font-size: 1.3rem;
-    }
-    .header-main__description{
-        width: 100%;
-    }
-    .header-main__title{
-        font-size: 1.8rem;
-    }
-    .header-main__subtitle{
-        font-size: 1.5rem;
-    }
-    .header-main__description-number{
-        font-size: 1.5rem;
-    }
-    .header-main__description-title{
-        font-size: 1.3rem;
-    }
-
-    .section-top__right {
-        font-size: 1.6rem;
-    }
-
+    
 }
 
 
@@ -151,27 +126,7 @@
         right: 0;
     }
     
-    .swiper-slide{
-        width: 100% !important;
-    }
-    .expertises-box{
-        box-shadow: 0 0 0.5rem rgba(82, 98, 114, 0.5);
-        margin: 1rem ;
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        border-radius: 1rem;
-    }
-    .expertises-box__img{
-        width: 8rem;
-        height: 8rem;
-        margin-bottom: 1rem;
-        border-radius: 50%;
-        
-    }
-
+   
 
 
 }

@@ -4,142 +4,70 @@
 @import url('nav.css');
 
 
+/* main-header */
 
-
-
-
-/* header-main */
-
-
-.header-main {
-    background-image: url('../images/img/main-header-background.webp'), linear-gradient(to right, rgba(57, 73, 89, 0.5), transparent, rgba(57, 73, 89, 0.5));
-    background-color: var(--primary-color);
-    text-align: center;
+.main-header {
+    background-image: url('../images/img/main-header__img\ \(2\).jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed ;
+    
     padding: 10rem 0;
     color: var(--white-color);
+    text-align: center;
+    position: relative;
+    margin-bottom: 25rem;
 }
 
-.header-main__content {}
+.main-header__content{
+    width: 45rem;
+    margin: auto;
+}
 
-.header-main__title {
+.main-header__title {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 2rem;
+    text-shadow: 0 0 1rem var(--primary-color);
 }
 
-.header-main__subtitle {
-    font-size: 2rem;
-    margin-bottom: 3rem;
+.main-header__suntitle {
+    margin: 2rem 0 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
-.header-main__expertise {
-    background-color: var(--white-color);
-    width: 70rem;
-    padding: 1rem;
-    border-radius: .5rem;
-    box-shadow: 0 0 .5rem rgba(57, 73, 89, 0.6);
-    margin: 0 auto 5rem;
-
-}
-
-.header-main__expertise-location {
-    color: var(--primary-color);
-    gap: 1rem;
-    background-color: #39495911;
-    padding: 1rem 1.5rem;
-    border-radius: .5rem;
-}
-
-.header-main__expertise-icon {}
-
-.header-main__expertise-text {
-    cursor: pointer;
-}
-
-.header-main__expertise-search-icon {
-    color: var(--dark-color);
-    margin: 0 1rem;
-}
-
-.header-main__expertise-input {
-    border: none;
-    font-size: 1.2rem;
-    flex-grow: 1;
-}
-
-.header-main__description {
-    width: 70rem;
-    margin: auto;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.header-main__description-box {
-    flex-grow: 1;
-}
-
-.header-main__description-number {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.header-main__description-title {}
-
-.side-border {
-    border-right: .1rem dashed var(--white-color);
-    border-left: .1rem dashed var(--white-color);
-}
-
-
-/* /header-main */
-
-
-/* main */
-.main {
-    margin-top: 2rem;
-}
-
-.main-recordturn__btn {}
-
-.main-recordturn__btn-link {}
-
-.main-expertise__btn {}
-
-.main-expertise__btn-link {}
-
-/* /main */
-
-
-/* expertises */
-
-
-.expertises {
+.main-header__caption {
     
 }
-.expertises-items{
-    margin-top: 3rem;
+
+
+
+.main-header__boxs{
+    display: flex;
+    position: absolute;
+    gap: 100rem;
+    bottom: -18rem;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    transition: all 1000ms ease;
 }
+.main-header__boxs-right{
 
-
-
-
-
-/* /expertises */
-
-
-/* sickness */
-
-.sickness-items__box{
+}
+.main-header__box{
     background-color: var(--white-color);
-    box-shadow: 0 0 .5rem rgba(82, 98, 114, 0.5);
-    padding: 2rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+    padding: 1rem;
     border-radius: 1rem;
 }
-.sickness-items__box-link{
+.main-header__box-img{
+    width: 20rem;
+    height: 20rem;
+}
+.main-header__box-link{
 
 }
-.sickness-items__box-img{
 
-}
-
-/* /sickness */
+/* /main-header */

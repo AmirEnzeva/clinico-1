@@ -17,9 +17,3 @@ function slidShow() {
 }
 // /menu
 
-
-
-
-// login
-
-// /login

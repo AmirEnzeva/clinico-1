@@ -63,125 +63,22 @@ a:hover {
 }
 
 
+/* section-title */
 
-
-
-
-.team-name {
-    color: var(--primary-color);
-    text-shadow: 0 0 0.1rem var(--dark-color);
-}
-
-.button-1 {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    padding: 1.5rem;
-    display: block;
-    text-align: center;
-    border-radius: 1rem;
-    margin-top: 1.5rem;
-    box-shadow: 0 0 .5rem rgba(4, 90, 209, 0.6);
-}
-
-.button-1:hover {
-    background-color: rgba(4, 90, 209, 0.9);
-    color: var(--white-color);
-}
-
-.button-2 {
-    background-color: var(--third-color);
-    color: var(--white-color);
-    padding: 1.5rem;
-    display: block;
-    text-align: center;
-    border-radius: 1rem;
-    margin-top: 1.5rem;
-    box-shadow: 0 0 .5rem rgba(1, 169, 244, 0.6);
-}
-
-.button-2:hover {
-    background-color: rgba(1, 169, 244, 0.9);
-    color: var(--white-color);
-}
-
-
-section{
-    margin: 5rem 0;
-}
-
-.section-top {}
-
-.section-top__right {
-    font-size: 2rem;
-}
-.section-top__right-icon {
-    color: var(--primary-color);
-    fill: var(--primary-color);
-    width: 2rem;
-    height: 2rem;
-}
-.section-top__show-all-icon {}
-
-.section-top__title {}
-
-.section-top__left {}
-
-.section-top__show-all-icon {
-    margin-right: .5rem;
-}
-
-.section-top__show-all {
-    position: relative;
-}
-.section-top__show-all::before{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    border-radius: .5rem;
-    height: 2rem;
-    right: -2rem;
-    background-color: rgba(4, 90, 209 , 0.3);
-    transition: all 250ms ease;
-    transform: scale(0.9);
-}
-.section-top__show-all:hover.section-top__show-all::before{
-    right: 0;
-    transform: scale(1);
-    height: 2.5rem ;
-}
-
-
-
-.expertises-box{
-    box-shadow: 0 0 0.5rem rgba(82, 98, 114, 0.5);
-    margin: 1rem 1rem;
-    padding: 1rem;
+.section-title{
     display: flex;
     align-items: center;
-    border-radius: 1rem;
+    justify-content: center;
+    gap: 1.5rem;
 }
-.expertises-box__img{
-    width: 10rem;
-    height: 10rem;
-    margin-left: 1rem;
-    border-radius: 50%;
-    z-index: 0;
+.section-title__text{
+    color: #000;
 }
-.expertises-box__content{
-
-}
-.expertises-box__name{
-
-}
-.expertises-box__doctors{
-
-}
-.swiper-pagination{
-    bottom: 0rem !important;
-}
-.swiper-wrapper{
-    padding: 1rem;
+.section-title__link{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-color);
 }
 
-/* /componnet */
+/* /section-title */

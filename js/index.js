@@ -1,16 +1,8 @@
-const swiperSlider = new Swiper('.swiper', {
-    speed:800,
-    loop:false,
-    breakpoints: {
-        980: {
-          slidesPerView: 4,
-        },
+let expertiseSwiper = new Swiper('.expertise-swiper',{
+    direction: 'vertical',
+    loop: true,
+    autoplay: {
+        delay: 3000,
+    },
 
-      },
-
-      autoplay: {
-        delay: 2500,
-      },
-
-
-});
+})
