@@ -71,3 +71,34 @@
 }
 
 /* /main-header */
+
+/* expertise */
+
+.expertise-items{
+    
+}
+
+.expertise-box{
+    
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+    margin: 1rem ;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.expertise-box__link{
+    display: flex;
+    flex-direction: column;
+}
+.expertise-box__img{
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+}
+.expertise-box__text{
+    margin-top: 1rem;
+}
+
+/* /expertise */
+
+
