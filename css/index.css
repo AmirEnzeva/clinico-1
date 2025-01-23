@@ -102,3 +102,36 @@
 /* /expertise */
 
 
+/* doctors */
+
+.doctors-box{
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
+.doctors-box__img{
+
+}
+.doctors-box__title{
+
+}
+.doctors-box__score{
+
+}
+.doctors-box__score-text{
+
+}
+.doctors-box__score-star{
+
+}
+.doctors-box__score-img{
+
+}
+.doctors-box__expertises{
+
+}
+.doctors-box__link{
+
+}
+
+/* /doctors */
+
+
