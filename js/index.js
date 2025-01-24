@@ -1,4 +1,4 @@
-const swiper = new Swiper('.expertise-swiper', {
+const expertiseSwiper = new Swiper('.expertise-swiper', {
     speed: 1000,
     spaceBetween: 100,
     loop:true,
@@ -6,7 +6,8 @@ const swiper = new Swiper('.expertise-swiper', {
         // when window width is >= 320px
         320: {
           slidesPerView: 1,
-          spaceBetween: 20
+          spaceBetween: 20,
+          
         },
         // when window width is >= 480px
         480: {
@@ -29,8 +30,7 @@ const swiper = new Swiper('.expertise-swiper', {
       },
       
       
-  });
-
+});
 const doctorSwiper = new Swiper('.doctor-swiper', {
     speed: 1000,
     spaceBetween: 100,
@@ -39,12 +39,14 @@ const doctorSwiper = new Swiper('.doctor-swiper', {
         // when window width is >= 320px
         320: {
           slidesPerView: 1,
-          spaceBetween: 20
+          spaceBetween: 20,
+          
         },
         // when window width is >= 480px
         480: {
           slidesPerView: 2,
-          spaceBetween: 30
+          spaceBetween: 30,
+          
         },
         // when window width is >= 640px
         980: {
@@ -59,7 +61,8 @@ const doctorSwiper = new Swiper('.doctor-swiper', {
 
       autoplay: {
         delay: 1000,
+        reverseDirection: true,
       },
       
       
-  });
+});
