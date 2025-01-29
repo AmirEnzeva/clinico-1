@@ -81,6 +81,10 @@
     border-radius: 1rem;
     text-align: center;
     padding: 1.5rem;
+    transition: all 250ms ease;
+}
+.expertise-box:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 .expertise-box__link {
@@ -275,11 +279,7 @@
 /* ill */
 
 .ill-sign{
-    margin-top: -5rem;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
-    height: 60rem;
-    border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 100%;
+
 }
 
 /* /ill */

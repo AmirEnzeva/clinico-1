@@ -1,4 +1,4 @@
-const expertiseSwiper = new Swiper('.expertise-swiper', {
+const expertiseSwiper = new Swiper('.swiper-1', {
     speed: 1000,
     spaceBetween: 100,
     loop:true,
@@ -20,7 +20,7 @@ const expertiseSwiper = new Swiper('.expertise-swiper', {
           spaceBetween: 40
         },
         1200: {
-          slidesPerView: 4,
+          slidesPerView: 5,
           spaceBetween: 40
         }
       },
