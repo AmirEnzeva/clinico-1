@@ -1,4 +1,3 @@
-import { backToTop } from "./stylejs";
 
 let $ = document;
 
