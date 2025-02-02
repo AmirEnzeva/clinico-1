@@ -5,4 +5,10 @@
     --white-color: #fff;
     --dark-color: #526272;
     --primary-font: "IRANSans";
+    --font-size-xl: clamp(2rem , 3vw , 2.5rem);
+    --font-size-l: clamp(1rem , 2vw , 2rem);
+    --font-size-normal: clamp(1.5rem , 2vw , 1.8rem);
+    --font-size-defult: clamp(1.4rem , 2vw , 1.6rem) ;
+    --font-size-medium: clamp(1.3rem , 2vw , 1.5rem);
+    --font-size-small: clamp(1.1rem , 2vw , 1.3rem);
 }

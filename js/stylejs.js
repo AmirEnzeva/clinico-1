@@ -1,6 +1,3 @@
-window.addEventListener('load',()=>{
-    document.querySelector('.main-header__boxs').style.gap = '1rem'
-})
 
 const backTopBtn = document.querySelector('.back-top')
 window.addEventListener('scroll',()=>{
@@ -12,7 +9,12 @@ window.addEventListener('scroll',()=>{
         backTopBtn.classList.remove('back-top--active')
     }
 })
-backTopBtn.addEventListener('click',()=>{
+backTopBtn.addEventListener('mouseup',()=>{
     window.scrollTo(0,0)
+    backTopBtn.classList.remove('onclick');
+
+})
+backTopBtn.addEventListener('mousedown',()=>{
+    backTopBtn.classList.add('onclick');
 })
 

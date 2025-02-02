@@ -40,17 +40,45 @@
         font-size: 1.3rem;
     }
 
+
+    /* comments res */
+
+    .comment-box{
+        margin: 0 1rem;
+    }
+
+    /* comments res */
+    
+
 }
 
 
 /* 768 */
 @media only screen and (max-width: 768px) {
-    
+    .ads-imgs{
+        overflow: scroll;
+    }
+    .ads-img-box{
+        width: 100%;
+        flex-shrink: 0;
+        height: 35rem;
+    }
+
+    /* defult res */
+
+    .back-top{
+        width: 6rem ;
+        height: 6rem ;
+    }
+
+    /* defult res */
 }
 
 
 /* 992 */
 @media only screen and (max-width: 992px) {
+
+
     .menu-btn{
         font-size: 2.5rem;
     }
@@ -128,7 +156,17 @@
     
    
 
-
+    /* main header res */
+    .main-header__content{
+        width: 100%;
+    }
+    
+    .main-header__box-img{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    /* main header res */
 }
 
 

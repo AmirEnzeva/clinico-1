@@ -15,6 +15,9 @@ cover.addEventListener('click',slidShow)
 function slidShow() {
     cover.classList.toggle('cover--active')
     menu.classList.toggle('menu--active')
+    document.body.classList.toggle('overflow')
 }
 // /menu
+ 
+
 

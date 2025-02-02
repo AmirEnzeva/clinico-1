@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: var(--font-size-defult);
     line-height: 1.8rem;
     font-family: var(--primary-font);
     direction: rtl;
@@ -38,7 +38,7 @@ a:hover {
 
 
 .logo-text {
-    font-size: 2.3rem;
+    font-size: var(--font-size-xl);
     font-weight: bold;
     color: var(--primary-color);
 }
@@ -59,6 +59,7 @@ a:hover {
     transform: scale(0.7);
     visibility: hidden;
     transition: all 250ms ease;
+    z-index: 100;
 }
 .back-top:hover{
     background-color: var(--third-color);
@@ -67,6 +68,9 @@ a:hover {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
+}
+.onclick{
+    transform: scale(0.8);
 }
 
 .cover {
@@ -87,7 +91,7 @@ a:hover {
     opacity: 1;
     z-index: 2;
 }
-.cover--active body{
+.overflow{
     overflow: hidden;
 }
 
@@ -114,4 +118,89 @@ section{
     color: var(--primary-color);
 }
 
+.swiper{
+    padding: 1rem 0;
+}
+.swiper-pagination{
+    bottom: -0.5rem !important;
+}
+
 /* /section-title */
+
+/* footer */
+
+.footer{
+    background-color: #EEEEEE;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 5rem 0;
+    margin-top: 5rem;
+}
+
+
+
+.footer-content{
+    
+}
+
+
+.footer-content__right{
+    flex-basis: 50%;
+}
+
+.footer-content__items{
+
+}
+.footer-content__item-head{
+    color: #000;
+    font-weight: bold;
+}
+.footer-content__item{
+    padding: 0.8rem 0;
+}
+.footer-content__item-link{
+
+}
+
+
+
+.footer-content__left{
+    flex-basis: 50%;
+    
+}
+.footer-contactus{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-contactus__email{
+
+}
+.logo{
+    color: #000;
+    font-weight: bolder;
+    font-size: var(--font-size-xl);
+}
+.footer-contactus__social{
+    margin-top: 2rem;
+}   
+.footer-contactus__social-medias{
+    gap: 3rem;
+    font-size: var(--font-size-xl);
+    
+}
+.footer-contactus__social-icon{
+    transition: all 250ms ease;
+}
+.footer-contactus__social-img{
+    filter: grayscale(80%);
+    width: 3rem;
+    height: 3rem;
+    transition: all 250ms ease;
+}
+.footer-contactus__social-img:hover{
+    filter: grayscale(0);
+
+}
+
+
+/* /footer */
