@@ -28,6 +28,17 @@
 
     
     /* /header */
+
+
+    /* companies */
+    
+    .companies-logos__logo {
+        height: 4rem;
+        margin: 0 2rem;
+    }
+    
+
+    /* /companies */
 }
 
 
