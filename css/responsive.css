@@ -14,6 +14,9 @@
     
 
     /* header */
+    .header-title{
+        font-size: 2.5rem;
+    }
 
     .header-content{
         width: 100%;
@@ -33,7 +36,7 @@
     /* companies */
     
     .companies-logos__logo {
-        height: 4rem;
+        height: 5rem;
         margin: 0 2rem;
     }
     
@@ -55,7 +58,7 @@
         display: block;
     }
     .navbar{
-        height: 5rem;
+        height: 6rem;
     }
     .navbar-menu{
         background: rgba(4, 90, 209, 0.24);

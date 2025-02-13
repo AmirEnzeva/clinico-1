@@ -42,7 +42,7 @@
     text-align: center;
     border-radius: 5rem;
     font-size: var(--font-size-medium);
-    width: 20rem;
+    width: 15rem;
 }
 
 .header-link__btn:hover {
@@ -95,13 +95,13 @@
 }
 
 .companies::after {
-    background-image: linear-gradient(90deg , #526272 , transparent);
+    background-image: linear-gradient(90deg , #52627238 , transparent);
 }
 
 .companies::before {
     right: 0;
     z-index: 2;
-    background-image: linear-gradient(270deg , #526272 , transparent);
+    background-image: linear-gradient(270deg , #52627238 , transparent);
 } */
 
 .companies-logos {
@@ -111,7 +111,7 @@
 }
 
 .companies-logos__logo {
-    height: 9rem;
+    height: 8rem;
     margin: 0 9rem;
 }
 
