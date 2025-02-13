@@ -5,43 +5,52 @@
 
 /* header */
 
-.header{
+.header {
     height: 90vh;
-    background: rgb(2,0,36);
-    background-image: url(../images/img/header-background.webp) ,  linear-gradient(90deg, rgba(2,0,36,0.9136029411764706) 0%, rgba(4,90,209,1) 100%);
+    background: rgb(2, 0, 36);
+    background-image: url(../images/img/header-background.webp), linear-gradient(0deg, rgba(2, 0, 36, 0.9136029411764706) 0%, rgba(4, 90, 209, 1) 100%);
     color: var(--white-color);
 }
-.header-content{
-    width: 50rem;
+
+.header-content {
+    width: 100%;
+    text-align: center;
 }
-.header-title{
+
+.header-title {
     font-weight: bold;
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
 }
-.header-content__caption{
+
+.header-content__caption {
     line-height: 2rem;
-    font-size: var(--font-size-defult);
+    font-size: var(--font-size-l);
 }
-.header-link{
-    margin-top: 1.5rem;
+
+.header-link {
+    margin-top: 2rem;
     display: flex;
     gap: 1rem;
+    justify-content: center;
 }
-.header-link__btn{
+
+.header-link__btn {
     color: var(--white-color);
     border: .1rem solid var(--white-color);
-    flex-grow: 1;
-    padding: 1rem ;
+    padding: 1rem;
     text-align: center;
     border-radius: 5rem;
     font-size: var(--font-size-medium);
+    width: 20rem;
 }
-.header-link__btn:hover{
-    background-color: var(--white-color);
+
+.header-link__btn:hover {
+    background-color: #F7ED4C;
     color: var(--dark-color);
 }
-.header-link__btn--active{
+
+.header-link__btn--active {
     background-color: var(--white-color);
     border: none;
     color: var(--dark-color);
@@ -49,3 +58,61 @@
 
 
 /* /header */
+
+
+/* companies */
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.companies {
+    overflow: hidden;
+    padding: 1rem 0;
+    background-color: var(--white-color);
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+}
+/* 
+.companies::after,
+.companies::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.companies::after {
+    background-image: linear-gradient(90deg , #526272 , transparent);
+}
+
+.companies::before {
+    right: 0;
+    z-index: 2;
+    background-image: linear-gradient(270deg , #526272 , transparent);
+} */
+
+.companies-logos {
+    white-space: nowrap;
+    animation: 30s scroll infinite linear;
+
+}
+
+.companies-logos__logo {
+    height: 9rem;
+    margin: 0 9rem;
+}
+
+/* /companies */
