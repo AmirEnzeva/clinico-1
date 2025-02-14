@@ -22,11 +22,14 @@
         width: 100%;
         text-align: center;
     }
-
+    
     .header-link{
-        
+        flex-direction: column;
+        align-items: center;
     }
-
+    .header-link__btn{
+        width: 80%;
+    }
     
 
     
@@ -36,7 +39,7 @@
     /* companies */
     
     .companies-logos__logo {
-        height: 5rem;
+        height: 3rem;
         margin: 0 2rem;
     }
     
@@ -50,9 +53,11 @@
 
     /* menu */
     .navbar-menu__btn{
-        display: block;
+        display: flex;
         color: #000;
         font-size: var(--font-size-xl);
+        flex-direction: column;
+        gap: .2rem;
     }
     #close-menu{
         display: block;

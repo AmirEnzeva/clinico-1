@@ -120,7 +120,6 @@ a:hover {
 .navbar-menu__btn {
     display: none;
     cursor: pointer;
-
 }
 
 .navbar-menu {
@@ -155,6 +154,11 @@ a:hover {
 }
 #close-menu{
     display: none;
+}
+.bar{
+    width: 2.5rem;
+    height: .3rem;
+    background-color: #000;
 }
 
 /* /navbar */
