@@ -6,7 +6,7 @@
 /* header */
 
 .header {
-    height: 90vh;
+    height: 100vh;
     background: rgb(2, 0, 36);
     background-image: url(../images/img/header-background.webp), linear-gradient(0deg, rgba(2, 0, 36, 0.9136029411764706) 0%, rgba(4, 90, 209, 1) 100%);
     color: var(--white-color);

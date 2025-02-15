@@ -80,7 +80,7 @@ a:hover {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: white;
+    background-color: var(--white-color);
     height: auto;
     z-index: 5;
     box-shadow: 0 0 0.5rem var(--dark-color);
