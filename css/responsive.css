@@ -10,6 +10,17 @@
 
 /* 768 */
 @media only screen and (max-width: 768px) {
+
+
+    /* defult */
+
+    .back-top{
+        width: 5rem;
+        height: 5rem;
+        font-size: 1.4rem;
+    }
+
+    /* /defult */
    
     
 
@@ -99,7 +110,7 @@
         padding: 1rem 1rem;
         width: 100%;
         border: none;
-        border-bottom: .1rem dashed var(--dark-color);
+        border-bottom: .1rem dashed var(--white-color);
         flex-grow: 0;
         text-align: start;
     }

@@ -61,7 +61,6 @@ a:hover {
 .back-top:hover {
     background-color: var(--third-color);
 }
-
 .back-top--active {
     opacity: 1;
     visibility: visible;
