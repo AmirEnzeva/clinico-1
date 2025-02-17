@@ -21,3 +21,4 @@ function closeHandler(){
 openMenuBtn.addEventListener('click',menuHandler)
 closeMenuBtn.addEventListener('click',menuHandler)
 window.addEventListener('scroll',() => menu.classList.remove('menu--active'))
+
