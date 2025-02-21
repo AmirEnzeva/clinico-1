@@ -205,11 +205,33 @@
     margin-left: .5rem;
 }
 
-.filter-choose__output {}
+.filter-choose__output {
+    width: 100%;
+    height: 20rem;
+    border-radius: 1rem;
+    overflow-y: scroll;
+    background-color: var(--white-color);
+    box-shadow: 0 0 0.5rem var(--dark-color);
+    padding: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+}
 
-.filter-doctor {}
+.filter-doctor {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 0.3rem var(--dark-color);
+    padding: .5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: var(--font-size-small);
+}
 
-.filter-doctor__img {}
+.filter-doctor__img {
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
 
 .filter-doctor__name {}
 
