@@ -127,6 +127,92 @@
 
 /* recording */
 
+.recording {
+    margin-top: 5rem;
+}
+
+.recording-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.recording-content__right,
+.recording-content__left {
+    flex-basis: 50%;
+    box-shadow: 0 0 .5rem var(--dark-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.recording-content__right{
+    background-color: var(--third-color);
+    background-image: linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
+}
+.recording-content__left{
+    background-color: var(--secondary-color);
+    background-image: linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
+}
+
+.recording-turn {
+    flex-direction: column;
+}
+
+.recording-turn__search {
+    box-shadow: 0 0 .3rem var(--dark-color);
+    border-radius: .5rem;
+    padding: 1rem ;
+    width: 100%;
+    background-color: var(--white-color);
+}
+.recording-turn__search-input {
+    border: none;
+    width: 100%;
+}
+
+.recording-turn__filter {
+    width: 100%;
+    padding: 1rem 0;
+    gap: 0.5rem;
+}
+
+.filter-box {
+    background-color: #0459d176;
+    color: var(--white-color);
+    padding: 0.5rem 1rem ;
+    border-radius: .5rem;
+    font-size: var(--font-size-medium);
+}
+
+.filter-box__icon {
+    margin-left: 0.5rem;
+}
+
+.filter-choose {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.filter-choose-box {
+    width: 100%;
+    box-shadow: 0 0 .5rem var(--dark-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    background-color: var(--white-color);
+    cursor: pointer;
+}   
+
+.filter-choose-box__icon {
+    margin-left: .5rem;
+}
+
+.filter-choose__output {}
+
+.filter-doctor {}
+
+.filter-doctor__img {}
+
+.filter-doctor__name {}
+
 
 
 
