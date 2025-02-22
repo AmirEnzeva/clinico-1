@@ -129,6 +129,7 @@
 
 .recording {
     margin-top: 5rem;
+    color: var(--white-color);
 }
 
 .recording-content {
@@ -251,6 +252,7 @@
     box-shadow: 0 0 .5rem var(--dark-color);
     position: relative;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 .queue-loader::before{
     content: '';
@@ -260,17 +262,7 @@
     bottom: 0;
     left: 0;
     width: 70%;
-    background-color: #FB607F;
-}
-.queue-loader::before{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-
-    background-color: var(--dark-color);
+    background-color: #cc3300;
 }
 
 .queue__detailse {}
