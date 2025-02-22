@@ -129,7 +129,6 @@
 
 .recording {
     margin-top: 5rem;
-    color: var(--white-color);
 }
 
 .recording-content {
@@ -242,7 +241,10 @@
 
 
 
-.queue {}
+.queue {
+    color: var(--white-color);
+
+}
 
 .queue-loader {
     width: 100%;
@@ -269,13 +271,22 @@
 
 .queue__time {}
 
-.queue-card {}
+.queue-card {
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    width: 80%;
+    margin: auto;
+}
 
 .queue-card__title {}
 
 .queue-card__content {}
 
-.queue-card__item {}
+.queue-card__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .queue-card__address {}
 
