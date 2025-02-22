@@ -71,7 +71,9 @@ a:hover {
     transform: scale(0.8);
 }
 
-
+.gap-3{
+    gap: 0 !important;
+}
 
 /* navbar */
 

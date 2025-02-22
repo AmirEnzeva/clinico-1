@@ -129,12 +129,10 @@
 
 .recording {
     margin-top: 5rem;
+    font-size: var(--font-size-medium);
 }
 
-.recording-content {
-    display: flex;
-    gap: 2rem;
-}
+.recording-content {}
 
 .recording-content__right,
 .recording-content__left {
@@ -142,6 +140,7 @@
     box-shadow: 0 0 .5rem var(--dark-color);
     border-radius: 1rem;
     padding: 2rem;
+    height: 100%;
 }
 
 .recording-content__right {
@@ -256,7 +255,8 @@
     overflow: hidden;
     margin-bottom: 2rem;
 }
-.queue-loader::before{
+
+.queue-loader::before {
     content: '';
     display: block;
     position: absolute;
@@ -267,27 +267,53 @@
     background-color: #cc3300;
 }
 
-.queue__detailse {}
+.queue__detailse {
+
+    margin-bottom: 3rem;
+}
 
 .queue__time {}
 
 .queue-card {
     background-color: var(--white-color);
     color: var(--dark-color);
-    width: 80%;
+    width: 70%;
     margin: auto;
+    padding: 2rem;
+    box-shadow: 0 0 0.5rem var(--dark-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
-.queue-card__title {}
+.queue-card__top{
+
+}
+.queue-card__title {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
 
 .queue-card__content {}
 
 .queue-card__item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 1rem 0;
 }
 
-.queue-card__address {}
+.queue-card__address {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.queue-card__bottom {
+    border-top: 0.1rem dashed var(--dark-color);
+    text-align: center;
+}
+
+.queue-card__barcode {}
+
+.queue-card__barcode-img {
+    width: 10rem;
+}
 
 /* /recording */
