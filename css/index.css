@@ -317,3 +317,70 @@
 }
 
 /* /recording */
+
+
+/* ad */
+
+.ad{
+    background-color: lightblue;
+    margin-top: 5rem;
+    padding: 2rem 0;
+    font-size: var(--font-size-medium);
+}
+.ad__top{
+
+}
+.ad__top-link{
+
+}
+.ad__top-title{
+    font-size: var(--font-size-l);
+    font-weight: bold;
+}
+.show-more{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.ad__top-subtitle{
+    margin: 2rem 0;
+}
+.ad-content{
+    gap: 1rem;
+}
+.ad-content__item{
+    flex-grow: 1;
+    height: 50rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    filter: grayscale(100);
+    transition: all 250ms ease;
+    position: relative;
+
+}
+.ad-content__item:hover{
+    filter: grayscale(0);
+}
+.ad-content__link{
+    
+}
+.ad-content__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ad-content__caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 2rem 0;
+    background: rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    color: var(--white-color);
+}
+
+/* /ad */
