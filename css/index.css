@@ -353,7 +353,7 @@
     height: 50rem;
     overflow: hidden;
     border-radius: 1rem;
-    filter: grayscale(100);
+    filter: grayscale(1);
     transition: all 250ms ease;
     position: relative;
 

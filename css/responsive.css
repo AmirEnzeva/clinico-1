@@ -152,6 +152,19 @@
     
     /* /menu */
 
+
+    /* ad */
+    
+    .ad-content{
+        overflow-x: scroll;
+    }
+    .ad-content__item{
+        filter: grayscale(0);
+        flex-shrink: 0;
+    }
+
+    /* /ad */
+
 }
 
 
