@@ -145,12 +145,16 @@
 
 .recording-content__right {
     background-color: var(--third-color);
-    background-image: linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
+    background-image:url(../images/svg/ss-1.svg) ,linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .recording-content__left {
     background-color: var(--secondary-color);
-    background-image: linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
+    background-image:url(../images/svg/ss-2.svg) ,linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .recording-turn {
@@ -264,7 +268,7 @@
     bottom: 0;
     left: 0;
     width: 70%;
-    background-color: #cc3300;
+    background-color: var(--third-color);
 }
 
 .queue__detailse {
@@ -389,6 +393,22 @@
 /* specialites */
 
 .specialties{
+
+}
+
+.slide{
+
+}
+.specialties-box{
+
+}
+.specialties-box__img{
+
+}
+.specialties-box__name{
+
+}
+.specialties-box__doctors{
 
 }
 
