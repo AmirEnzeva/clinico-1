@@ -48,7 +48,7 @@
 }
 
 .header-link__btn:hover {
-    background-color: #F7ED4C;
+    background-color: var(--secondary-color);
     color: var(--dark-color);
 }
 
@@ -145,14 +145,14 @@
 
 .recording-content__right {
     background-color: var(--third-color);
-    background-image:url(../images/svg/ss-1.svg) ,linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
+    background-image:url(../images/svg/shape-1.svg) ,linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
     background-size: cover;
     background-attachment: fixed;
 }
 
 .recording-content__left {
     background-color: var(--secondary-color);
-    background-image:url(../images/svg/ss-2.svg) ,linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
+    background-image:url(../images/svg/shape-2.svg) ,linear-gradient(0deg, rgba(2, 0, 36, 0.5) 0%, transparent 100%);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -254,6 +254,7 @@
     height: 5rem;
     background-color: var(--white-color);
     border-radius: 0.5rem;
+    border: 1px solid var(--secondary-color);
     box-shadow: 0 0 .5rem var(--dark-color);
     position: relative;
     overflow: hidden;
@@ -326,10 +327,11 @@
 /* ad */
 
 .ad{
-    background-color: lightblue;
+    background-color: var(--third-color);
     margin-top: 5rem;
-    padding: 2rem 0;
+    padding: 4rem 0;
     font-size: var(--font-size-medium);
+    background-image: url(../images/svg/bg.png);    
 }
 .ad__top{
 
@@ -340,6 +342,7 @@
 .ad__top-title{
     font-size: var(--font-size-l);
     font-weight: bold;
+    color: #000;
 }
 .show-more{
     display: flex;

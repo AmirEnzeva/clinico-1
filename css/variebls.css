@@ -1,9 +1,9 @@
 :root{
     --primary-color: #045AD1;
-    --secondary-color: #1CC1A1;
-    --third-color: #01A9F4;
+    --secondary-color: #ffefca;
+    --third-color: #5e9895;
     --white-color: #fff;
-    --dark-color: #526272;
+    --dark-color: #454555;
     --primary-font: "IRANSans";
     --font-size-xl: clamp(2rem , 3vw , 2.5rem);
     --font-size-l: clamp(1.5rem , 2vw , 2rem);
