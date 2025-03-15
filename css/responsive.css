@@ -60,7 +60,15 @@
     
 
     /* /companies */
+
+
+    /* ad */
+    .ad-content__item{
+        height: 40rem;
+    }
+    /* /ad */
 }
+
 
 
 /* 992 */
