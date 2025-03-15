@@ -396,22 +396,38 @@
 /* specialites */
 
 .specialties{
-
+    margin-top: 5rem;
 }
 
 .slide{
+    -webkit-box-shadow: 0px 0px 0px 1px #45455580;
+    -moz-box-shadow: 0px 0px 0px 1px #45455580;
+    box-shadow: 0px 0px 0px 1px #45455580;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 1.5rem;
+    transition: all 250ms ease;
+}
+.slide:hover{
+    -webkit-box-shadow: 0px 0px 10px 1px #45455580;
+    -moz-box-shadow: 0px 0px 10px 1px #45455580;
+    box-shadow: 0px 0px 10px 1px #45455580;
 
 }
-.specialties-box{
+.slide__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.slide__img{
+    width: 7rem;
+}
+.slid__name{
 
 }
-.specialties-box__img{
-
-}
-.specialties-box__name{
-
-}
-.specialties-box__doctors{
+.slid__doctors{
 
 }
 
