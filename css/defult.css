@@ -173,7 +173,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 2.5rem 0;
 }
 .section-top__title{
     color: #000;
